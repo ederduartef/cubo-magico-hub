@@ -14,10 +14,10 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-8"
         >
-          <img 
-            src="/images/logo.png" 
-            alt="Cubo Mágico Hub" 
-            className="h-20 sm:h-24 w-auto mx-auto object-contain" 
+          <img
+            src="/images/logo.png"
+            alt="Cubo Mágico Hub"
+            className="h-40 sm:h-56 w-auto mx-auto object-contain"
           />
         </motion.div>
 
