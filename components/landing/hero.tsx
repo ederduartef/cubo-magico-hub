@@ -17,7 +17,7 @@ export function Hero() {
           <img
             src="/images/logo.png"
             alt="Cubo Mágico Hub"
-            className="h-20 sm:h-24 w-auto mx-auto object-contain"
+            className="h-100 sm:h-124 w-auto mx-auto object-contain"
           />
         </motion.div>
 
