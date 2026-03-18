@@ -69,7 +69,7 @@ export function CareTabs() {
             CUIDADO SEGMENTADO
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-500 max-w-2xl mx-auto">
-            Encontre o serviço ideal para suas necessidades
+            Encontre o servico ideal para suas necessidades
           </p>
         </motion.div>
 
