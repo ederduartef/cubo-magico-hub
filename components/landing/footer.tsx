@@ -19,7 +19,7 @@ export function Footer() {
             Atendimentos presenciais e on-line
           </h2>
           <p className="text-sm sm:text-base text-slate-500 mb-10">
-            Flexibilidade para cuidar de voce de onde estiver.
+            Flexibilidade para cuidar de você de onde estiver.
           </p>
         </motion.div>
 
@@ -69,15 +69,15 @@ export function Footer() {
           <div className="flex items-start gap-3 p-4 rounded-xl bg-white shadow-sm">
             <MapPin className="w-5 h-5 text-[#48778A] shrink-0 mt-0.5" />
             <div>
-              <p className="text-xs font-medium text-[#1F292E] mb-1">Endereco</p>
+              <p className="text-xs font-medium text-[#1F292E] mb-1">Endereço</p>
               <p className="text-xs text-slate-500">Rua Exemplo, 123 - Centro, Cidade - UF</p>
             </div>
           </div>
           <div className="flex items-start gap-3 p-4 rounded-xl bg-white shadow-sm">
             <Clock className="w-5 h-5 text-[#48778A] shrink-0 mt-0.5" />
             <div>
-              <p className="text-xs font-medium text-[#1F292E] mb-1">Horario</p>
-              <p className="text-xs text-slate-500">Seg - Sex: 8h as 20h</p>
+              <p className="text-xs font-medium text-[#1F292E] mb-1">Horário</p>
+              <p className="text-xs text-slate-500">Seg - Sex: 8h às 20h</p>
             </div>
           </div>
           <div className="flex items-start gap-3 p-4 rounded-xl bg-white shadow-sm">
@@ -122,7 +122,7 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-xs text-slate-400"
         >
-          © {new Date().getFullYear()} Cubo Magico Hub. Todos os direitos reservados.
+          © {new Date().getFullYear()} Cubo Mágico Hub. Todos os direitos reservados.
         </motion.p>
       </div>
     </footer>

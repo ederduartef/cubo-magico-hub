@@ -7,49 +7,49 @@ import { Button } from "@/components/ui/button";
 
 const tabsData = {
   "saude-mental": {
-    label: "SAUDE MENTAL & DESENVOLVIMENTO",
-    shortLabel: "Saude Mental",
+    label: "SAÚDE MENTAL & DESENVOLVIMENTO",
+    shortLabel: "Saúde Mental",
     services: [
-      { title: "Psicoterapia para casais e familia", description: "Espaco de escuta e mediacao para fortalecer vinculos e melhorar a comunicacao." },
-      { title: "Avaliacao psicologica", description: "Processo estruturado com testes e entrevistas, indicado para bariatrica, processos judiciais, concursos e RH." },
-      { title: "Psicopedagogia", description: "Acompanhamento pedagogico para desenvolvimento escolar e superacao de dificuldades de aprendizagem." },
-      { title: "Psiquiatria", description: "Atendimento medico em saude mental com abordagem humanizada e cuidado individualizado." },
+      { title: "Psicoterapia para casais e família", description: "Espaço de escuta e mediação para fortalecer vínculos e melhorar a comunicação." },
+      { title: "Avaliação psicológica", description: "Processo estruturado com testes e entrevistas, indicado para bariátrica, processos judiciais, concursos e RH." },
+      { title: "Psicopedagogia", description: "Acompanhamento pedagógico para desenvolvimento escolar e superação de dificuldades de aprendizagem." },
+      { title: "Psiquiatria", description: "Atendimento médico em saúde mental com abordagem humanizada e cuidado individualizado." },
     ],
   },
   "corpo-regulacao": {
-    label: "CORPO & REGULACAO",
+    label: "CORPO & REGULAÇÃO",
     shortLabel: "Corpo",
     services: [
-      { title: "Quiropraxia", description: "Alinhamento corporal, melhora da postura e alivio de dores." },
-      { title: "Ventosaterapia", description: "Melhora a circulacao e promove relaxamento muscular." },
-      { title: "Massoterapia", description: "Massagens voltadas para relaxamento e reducao do estresse." },
+      { title: "Quiropraxia", description: "Alinhamento corporal, melhora da postura e alívio de dores." },
+      { title: "Ventosaterapia", description: "Melhora a circulação e promove relaxamento muscular." },
+      { title: "Massoterapia", description: "Massagens voltadas para relaxamento e redução do estresse." },
     ],
   },
   "autocuidado-estetica": {
-    label: "AUTOCUIDADO & ESTETICA",
-    shortLabel: "Estetica",
+    label: "AUTOCUIDADO & ESTÉTICA",
+    shortLabel: "Estética",
     services: [
-      { title: "Limpeza de pele", description: "Tratamentos para saude, renovacao e equilibrio da pele." },
-      { title: "Consultoria skincare", description: "Rotina personalizada para sua pele com orientacao pratica." },
+      { title: "Limpeza de pele", description: "Tratamentos para saúde, renovação e equilíbrio da pele." },
+      { title: "Consultoria skincare", description: "Rotina personalizada para sua pele com orientação prática." },
     ],
   },
   "cuidado-integrativo": {
     label: "CUIDADO INTEGRATIVO",
     shortLabel: "Integrativo",
     services: [
-      { title: "Acupuntura sistemica", description: "Equilibrio do corpo e mente atraves da medicina chinesa." },
-      { title: "Auriculoterapia", description: "Estimulacao de pontos na orelha para equilibrio fisico e emocional." },
-      { title: "Terapia Reiki", description: "Promove relaxamento e equilibrio energetico." },
-      { title: "Terapia floral", description: "Auxilia no equilibrio emocional." },
+      { title: "Acupuntura sistêmica", description: "Equilíbrio do corpo e mente através da medicina chinesa." },
+      { title: "Auriculoterapia", description: "Estimulação de pontos na orelha para equilíbrio físico e emocional." },
+      { title: "Terapia Reiki", description: "Promove relaxamento e equilíbrio energético." },
+      { title: "Terapia floral", description: "Auxilia no equilíbrio emocional." },
       { title: "Leitura de aura", description: "Ferramenta de autoconhecimento." },
     ],
   },
   "outros-servicos": {
-    label: "OUTROS SERVICOS",
+    label: "OUTROS SERVIÇOS",
     shortLabel: "Outros",
     services: [
-      { title: "Atendimento juridico", description: "Orientacao e suporte em demandas legais." },
-      { title: "Palestras e eventos", description: "Conteudos para empresas e grupos." },
+      { title: "Atendimento jurídico", description: "Orientação e suporte em demandas legais." },
+      { title: "Palestras e eventos", description: "Conteúdos para empresas e grupos." },
     ],
   },
 };
@@ -69,7 +69,7 @@ export function CareTabs() {
             CUIDADO SEGMENTADO
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-500 max-w-2xl mx-auto">
-            Encontre o servico ideal para suas necessidades
+            Encontre o serviço ideal para suas necessidades
           </p>
         </motion.div>
 

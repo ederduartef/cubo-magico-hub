@@ -14,20 +14,20 @@ import {
 const professionals = [
   {
     name: "Kenia Maia",
-    role: "Psicologa, Responsavel Tecnica e Cofundadora",
-    quote: "Acredito que o momento de angustia pode ser o ponto de partida para a sua maior transformacao.",
+    role: "Psicóloga, Responsável Técnica e Cofundadora",
+    quote: "Acredito que o momento de angústia pode ser o ponto de partida para a sua maior transformação.",
     image: "/images/kenia.jpg",
   },
   {
     name: "Isaac Martins",
-    role: "Psicologo, Presidente e Fundador do Cubo Magico",
-    quote: "Meu objetivo e proporcionar uma experiencia positiva e descontraida, sem deixar a seriedade de lado. Cada ser e unico.",
+    role: "Psicólogo, Presidente e Fundador do Cubo Mágico",
+    quote: "Meu objetivo é proporcionar uma experiência positiva e descontraída, sem deixar a seriedade de lado. Cada ser é único.",
     image: "/images/isaac.jpg",
   },
   {
     name: "Tatiane Soares",
-    role: "Psicologa e Supervisora Clinica CRP: 04/61014",
-    quote: "Foco no desenvolvimento da empatia, dialogo e na disposicao para mudancas profundas.",
+    role: "Psicóloga e Supervisora Clínica CRP: 04/61014",
+    quote: "Foco no desenvolvimento da empatia, diálogo e na disposição para mudanças profundas.",
     image: "/images/tatiane.jpg",
   },
 ];
@@ -59,7 +59,7 @@ export function Professionals() {
           <div className="bg-[#48778A]/10 text-[#48778A] border border-[#48778A]/20 rounded-xl px-4 py-3 flex flex-col sm:flex-row items-center gap-2 sm:gap-3 text-center sm:text-left mx-4">
             <ShieldCheck className="w-5 h-5 shrink-0" />
             <span className="text-xs sm:text-sm leading-relaxed">
-              Todos os profissionais possuem formacao em Psicologia com CRP ativo.
+              Todos os profissionais possuem formação em Psicologia com CRP ativo.
             </span>
           </div>
         </motion.div>

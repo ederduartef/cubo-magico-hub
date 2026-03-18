@@ -14,10 +14,10 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-8"
         >
-          <img 
-            src="/images/logo.png" 
-            alt="Cubo Mágico Hub" 
-            className="h-20 sm:h-24 w-auto mx-auto object-contain" 
+          <img
+            src="/images/logo.png"
+            alt="Cubo Mágico Hub"
+            className="h-60 sm:h-70 w-auto mx-auto object-contain"
           />
         </motion.div>
 
@@ -39,7 +39,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="mt-6 md:mt-8 text-sm sm:text-base md:text-lg text-slate-500 max-w-3xl mx-auto leading-relaxed text-pretty"
         >
-          Um coworking de negócios que conecta profissionais qualificados em saúde, bem-estar, estética e eventos. Com uma proposta alternativa — mais próxima, leve e personalizada — unimos conhecimento, arte e comunidade em um ambiente acolhedor, acessível e em constante movimento. Aqui, cada cuidado se transforma em uma experiência.
+          Um coworking de negócios que conecta profissionais qualificados em saúde, bem-estar, estética e eventos. Com uma proposta alternativa mais próxima, leve e personalizada, unimos conhecimento, arte e comunidade em um ambiente acolhedor, acessível e em constante movimento. Aqui, cada cuidado se transforma em uma experiência.
         </motion.p>
 
         {/* CTA Button */}

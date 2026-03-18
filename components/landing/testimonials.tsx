@@ -13,7 +13,7 @@ import {
 
 const testimonials = [
   {
-    text: "A psicoterapia foi um divisor de aguas. Aprendi a me conhecer melhor, a aceitar minhas imperfeicoes e a me perdoar.",
+    text: "A psicoterapia foi um divisor de águas. Aprendi a me conhecer melhor, a aceitar minhas imperfeições e a me perdoar.",
     initials: "M.S.",
   },
   {
@@ -25,7 +25,7 @@ const testimonials = [
     initials: "C.L.",
   },
   {
-    text: "A terapia me ajudou a enxergar as situacoes de forma mais positiva e a encontrar solucoes para os meus problemas em um momento muito dificil.",
+    text: "A terapia me ajudou a enxergar as situações de forma mais positiva e a encontrar soluções para os meus problemas em um momento muito difícil.",
     initials: "P.F.",
   },
 ];
@@ -42,7 +42,7 @@ export function Testimonials() {
           className="text-center mb-10 md:mb-14"
         >
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#1F292E] tracking-wide">
-            O QUE DIZEM SOBRE NOS
+            O QUE DIZEM SOBRE NÓS
           </h2>
         </motion.div>
 

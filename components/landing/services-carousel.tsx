@@ -16,16 +16,16 @@ import {
 
 const services = [
   {
-    title: "Psicoterapia (criancas, adolescentes e adultos)",
-    description: "Atendimentos com profissionais preparados em diversas abordagens, focados em autoconhecimento, saude emocional e qualidade de vida.",
+    title: "Psicoterapia (crianças, adolescentes e adultos)",
+    description: "Atendimentos com profissionais preparados em diversas abordagens, focados em autoconhecimento, saúde emocional e qualidade de vida.",
   },
   {
-    title: "Avaliacao neuropsicologica",
-    description: "Investigacao das funcoes cognitivas, auxiliando na identificacao de condicoes como autismo, TDAH e dificuldades de aprendizagem.",
+    title: "Avaliação neuropsicológica",
+    description: "Investigação das funções cognitivas, auxiliando na identificação de condições como autismo, TDAH e dificuldades de aprendizagem.",
   },
   {
     title: "Bronzeamento natural",
-    description: "Experiencia de autocuidado com horario personalizado, em um ambiente relaxante com acesso a piscina.",
+    description: "Experiência de autocuidado com horário personalizado, em um ambiente relaxante com acesso a piscina.",
   },
   {
     title: "Barbearia",
@@ -33,11 +33,11 @@ const services = [
   },
   {
     title: "Podologia",
-    description: "Cuidados especializados com os pes, tratando unhas encravadas, calosidades, rachaduras e micoses, alem de manutencao preventiva.",
+    description: "Cuidados especializados com os pés, tratando unhas encravadas, calosidades, rachaduras e micoses, além de manutenção preventiva.",
   },
   {
-    title: "Massagem terapeutica",
-    description: "Tecnicas corporais que aliviam tensoes, dores e promovem relaxamento fisico e mental.",
+    title: "Massagem terapêutica",
+    description: "Técnicas corporais que aliviam tensões, dores e promovem relaxamento físico e mental.",
   },
 ];
 
@@ -71,8 +71,8 @@ export function ServicesCarousel() {
           transition={{ duration: 0.6 }}
           className="text-center mb-10 md:mb-14"
         >
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#1F292E] tracking-wide">
-            SERVICOS EM DESTAQUE
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#48778A] tracking-wide">
+            SERVIÇOS EM DESTAQUE
           </h2>
         </motion.div>
 
@@ -105,7 +105,7 @@ export function ServicesCarousel() {
                       <CardDescription className="text-sm text-slate-500 leading-relaxed mb-4 sm:mb-6">
                         {service.description}
                       </CardDescription>
-                      <Button 
+                      <Button
                         variant="outline"
                         size="sm"
                         className="w-full border-[#48778A] text-[#48778A] hover:bg-[#48778A] hover:text-[#FDFBF7] transition-colors"

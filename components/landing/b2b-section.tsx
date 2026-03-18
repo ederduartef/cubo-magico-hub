@@ -19,7 +19,7 @@ export function B2BSection() {
             <Building2 className="w-7 h-7 sm:w-8 sm:h-8 text-[#48778A]" />
           </div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#1F292E] tracking-wide">
-            SOLUCOES PARA EMPRESAS
+            SOLUÇÕES PARA EMPRESAS
           </h2>
         </motion.div>
 
@@ -40,7 +40,7 @@ export function B2BSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-sm sm:text-base md:text-lg text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Criamos experiencias personalizadas de bem-estar, saude mental e autocuidado para equipes. Realizamos atendimentos e eventos no nosso espaco ou na sua empresa.
+          Criamos experiências personalizadas de bem-estar, saúde mental e autocuidado para equipes. Realizamos atendimentos e eventos no nosso espaço ou na sua empresa.
         </motion.p>
 
         <motion.div
